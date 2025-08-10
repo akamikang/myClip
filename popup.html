@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>📎 myClip</h2>
+      <p class="subtitle">선택한 콘텐츠를 이메일로 전송</p>
+    </div>
+    
+    <form id="clipForm">
+      <div class="form-group">
+        <label for="title">제목</label>
+        <input type="text" id="title" placeholder="제목을 입력하세요..." required>
+      </div>
+      
+      <div class="form-group">
+        <label for="content">선택된 텍스트</label>
+        <textarea id="content" rows="4" readonly></textarea>
+      </div>
+      
+      <div class="form-group">
+        <label for="url">URL</label>
+        <input type="text" id="url" readonly>
+      </div>
+      
+      <div class="buttons">
+        <button type="button" id="settingsBtn" class="secondary-btn">설정</button>
+        <button type="submit" id="saveBtn" class="primary-btn">발송하기</button>
+      </div>
+    </form>
+    
+    <div id="status" class="status hidden"></div>
+  </div>
+  
+  <script src="emailjs.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
