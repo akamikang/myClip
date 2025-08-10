@@ -32,9 +32,9 @@
 ### 1단계: 설정하기
 1. 확장 프로그램 아이콘 우클릭 → "옵션" 선택
 2. EmailJS 설정 정보 입력:
-   - Service ID (기본값: service_xru7eg8)
-   - Template ID (기본값: template_qslbpku)
-   - Public Key (기본값: 7eX6GLgodFTAfym7j)
+   - Service ID (기본값: ----)
+   - Template ID (기본값: ---)
+   - Public Key (기본값: ----)
    - 수신 이메일 주소
 3. "설정 저장" 클릭
 
